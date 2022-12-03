@@ -11,16 +11,15 @@ class Footer extends Component {
             
             
                 <ul className="list-unstyled">
-                    <li className="d-inline pe-5"><i type="button" className=" fa fa-reddit" href="#!"></i></li>
-                    <li className="d-inline pe-5"><i type="button" className=" fa fa-twitter" href="#!"></i></li>
-                    <li className="d-inline pe-5"><i type="button" className=" fa fa-envelope" href="#!"></i></li>
+                    <li className="d-inline pe-5"><a href="https://old.reddit.com/user/qendev/" target="_blank" rel="noopener noreferrer"><i type="button" className=" fa fa-reddit text-white" ></i></a></li>
+                    <li className="d-inline pe-5"><a href="https://twitter.com/NasirMakori" target="_blank" rel="noopener noreferrer"><i type="button" className=" fa fa-twitter text-white" ></i></a></li>
+                    <li className="d-inline pe-5"><a href="https://github.com/nickfff-dev/" target="_blank" rel="noopener noreferrer"><i type="button" className=" fa fa-github text-white" href="https://github.com/nickfff-dev"></i></a></li>
                 </ul>
            
         
     </div>
 
-    <div className="footer-copyright text-center py-3  ">© 2022 Copyright:
-        <a className="text-decoration-none text-white" href="https://mdbootstrap.com/"> Nickson as Nas_tech</a>
+    <div className="footer-copyright text-center mb-3  ">&copy; 2022 Copyright: Nickson as Nas_tech
     </div>
 
 </footer>

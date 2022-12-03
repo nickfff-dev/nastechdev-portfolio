@@ -1,49 +1,47 @@
 import React, { Component } from 'react';
-import yetu from "./hf2.svg"
+import yetu from "./hf3.svg"
 import Devicons from './Devicons';
-import { Row, Col, Container, Card, CardBody, CardTitle, CardText, Button, } from 'react-bootstrap'
+import { Container, Row, Col, Ratio} from 'react-bootstrap'
 
 class Home extends Component {
 
-    constructor(props) {
-        super(props)
-
-    }
-	
+  
 
 
 
     render() {
         return (
-            <Container className="mb-5 h-75">
-                <div className="d-flex flex-row align-items-center justify-content-evenly">
+            <Container  >
+                <Row>
+                    <div className="d-flex align-items-center flex-wrap justify-content-between">
                            
-                    <Container>
-						<h4> Intro</h4>
+                    <Col className="col-md-4">
+						<h4> Hi,</h4>
 						
                         <p>
-                            I am a Full Stack Web Developer with  a passion for creating
-                            beautiful  and intuitive user experiences. I have a
-                            background in Graphic Design and  a love for creating
-							beautiful and intuitive user experiences.
-							
-                            I am a Full Stack Web Developer with  a passion for creating
-                            beautiful  and intuitive user experiences. I have a
-                            background in Graphic Design and  a love for creating
-                            beautiful and intuitive user experiences.
+                        I am a Full Stack Web Developer with  a passion for making
+                            appealing user iterfaces and user experiences. I have a
+                            background in Graphic Design and  a love for 
+                            beautiful and intuitive user experiences. <br/>I have more than 5000 hours building, maintaining and deploying web applications. I can adapt onto any
+                                    technology, I'm proficient with most tech stacks. Im a passionate, diligent dev who learns continuously.
+                           
                         </p>
                         <div className="text-left">
-				<Devicons/>
-				</div>
-                    </Container>
-                    <Container className="mt-5">
-		             <img src={yetu} alt="yetu" className="img-fluid" />
-                         
-					</Container>
+                
+                <Devicons />
+                <hr/>
+            </div>
+                    </Col>
+                        <Col>
+                            <Ratio aspectRatio={"1x1"}>
+		             <img src={yetu} alt="yetu" className="img-fluid" /></Ratio>
+                     </Col>
 					
-                    
-				</div>
-			
+                     </div>
+                </Row>
+               
+                
+                
                 
                 
             </Container>

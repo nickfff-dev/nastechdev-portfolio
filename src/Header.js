@@ -2,12 +2,9 @@ import React from "react";
 import {
   Navbar,
   Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
+  
   Container,
-  Row,
+  
 } from "react-bootstrap";
 
 
@@ -15,13 +12,13 @@ import {
 class Header extends React.Component{
     render(){
       return (
-          <Container className="mb-5">
+          <Container >
           <Navbar
             collapseOnSelect
             expand="md"
           bg="none"
           variant="dark"
-            className="mt-3 fixed-top"
+            className="mt-3"
             
         >
             <Container>
@@ -30,16 +27,16 @@ class Header extends React.Component{
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link  >
+              <Nav.Link className="text-white" >
                 
                  Home
     
                
               </Nav.Link>
-              <Nav.Link eventKey={2}>
+              <Nav.Link  className="text-white" href="#portfolio" eventKey={2}>
             Portfolio
               </Nav.Link>
-              <Nav.Link eventKey={2}>
+              <Nav.Link  className="text-white" href="#contact" eventKey={2}>
             Contact
               </Nav.Link>
             </Nav>

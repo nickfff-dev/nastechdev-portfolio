@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, FormGroup, Label, Input, Button } from 'react-bootstrap';
+import { Container, Form, Button } from 'react-bootstrap';
 import axios from 'axios';
 
 class Contact extends Component {
@@ -17,7 +17,9 @@ class Contact extends Component {
 
     onChangeHandler(e) { 
         e.preventDefault();
+        
         this.setState({
+            
             [e.target.name]: e.target.value
         });
     }
@@ -27,8 +29,9 @@ class Contact extends Component {
 
         e.preventDefault();
         const form = e.target;
-        const data = new FormData(form);
-console.log(data);
+        const data = { email: this.state.email, subject: this.state.subject, message: this.state.message };
+        
+ console.log(data)
     }
 
 
@@ -36,7 +39,7 @@ console.log(data);
 
     render() {
         return (
-            <Container className="d-flex flex-column align-items-center mt-5 h-75 mb-5">
+            <Container className="d-flex flex-column align-items-center mt-5  mb-5" >
                 <h1>Contact me via this form</h1>
             <Form className="w-50"  formMethod="POST" onSubmit={this.onSubmitHandler}>
                 
@@ -58,7 +61,7 @@ console.log(data);
     <Form.Control as="textarea" name ="message" value={this.state.message} rows={3} placeholder="type your message here" onChange={this.onChangeHandler}/>
   </Form.Group>
   
-  <Button variant="primary" type="submit">
+  <Button variant="primary" type="submit" className="btn-light">
     Submit
   </Button>
 </Form>

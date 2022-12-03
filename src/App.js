@@ -4,17 +4,14 @@ import React from 'react';
 import Contact from './Contact';
 import Footer from './Footer';
 
+
 import Home from './Home';
-import { Row, Col, Container, Card, CardBody, CardTitle, CardText, Button, } from 'react-bootstrap'
+import {  Container, Stack } from 'react-bootstrap'
 
 
 
 class App extends React.Component {
-  constructor(props) {
-    super(props) 
-   
-   
-  }
+  
 
  
 
@@ -32,16 +29,19 @@ class App extends React.Component {
     
     return (
       <Container>
-        <Header /> 
-            <Home/>
-            
+        <Header />
+        <Stack gap={5}>
+       <section id="home"> <Home /></section>
+        
+    
+       <section id="about"> <About /></section>
+        
+          
+       <section id="contact">  <Contact/></section>
+       
+
            
           
-       
-          
-
-            <About/>
-          <Contact/>
           
           
        
@@ -53,7 +53,8 @@ class App extends React.Component {
           
        
   
-  <Footer/>
+       <section id="footer"> <Footer /></section>
+          </Stack>
         
       
         

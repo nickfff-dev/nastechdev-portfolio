@@ -12,7 +12,7 @@ class Devicons extends React.Component{
             
 
 <div  className="mt-5 ">
-<ReactTooltip type = 'info' textColor="white" backgroundColor="#00755E"  arrowColor="white" />
+<ReactTooltip type = 'info' textColor="white" backgroundColor="#429321"  arrowColor="white" />
 
     <span className=" btn ml-2 is-white devicons devicons-github" ref={ref => this.fooRef = ref} data-tip='github' onClick={() => { ReactTooltip.hide(this.fooRef) }}>    </span>
   
@@ -28,9 +28,9 @@ class Devicons extends React.Component{
 
    <span className=" btn button ml-4 is-white devicons devicons-python" ref={ref => this.fooRef = ref} data-tip='python' onClick={() => { ReactTooltip.hide(this.fooRef) }}>  </span>
    <span className="btn button ml-4 is-white devicons devicons-angular" ref={ref => this.fooRef = ref} data-tip='angular' onClick={() => { ReactTooltip.hide(this.fooRef) }}>   </span>
-   <span className="btn button ml-4 is-white devicons devicons-npm" ref={ref => this.fooRef = ref} data-tip='npm' onClick={() => { ReactTooltip.hide(this.fooRef) }}>  </span>
+  
    <span className="btn button ml-4 is-white devicons devicons-aws" ref={ref => this.fooRef = ref} data-tip='aws' onClick={() => { ReactTooltip.hide(this.fooRef) }}></span>
-   <span className="btn button ml-4 is-white devicons devicons-heroku" ref={ref => this.fooRef = ref} data-tip='heroku' onClick={() => { ReactTooltip.hide(this.fooRef) }}>   </span>
+     
   {/* <hr className=" text-center"/> */}
 </div>
     
