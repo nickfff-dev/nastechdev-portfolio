@@ -41,7 +41,7 @@ class Contact extends Component {
         return (
             <Container className="d-flex flex-column align-items-center mt-5  mb-5" >
                 <h1>Contact me via this form</h1>
-            <Form className="w-50"  formMethod="POST" onSubmit={this.onSubmitHandler}>
+            <Form className="w-[500px]"  formMethod="POST" onSubmit={this.onSubmitHandler}>
                 
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
