@@ -118,7 +118,7 @@ class About extends React.Component {
             <img
               
               src={image1}
-              width="300px"
+             
               height="auto"
               alt="portal logo"
               className="img-fluid"
@@ -129,7 +129,7 @@ class About extends React.Component {
             <img
               
               src={image2}
-              width="300px"
+             
               height="auto"
               alt="waltcheck"
               className="  img-fluid"
@@ -142,7 +142,7 @@ class About extends React.Component {
             <img
               
               src={image3}
-              width="300px"
+             
               height="auto"
               alt="portal logo"
               className=" img-fluid"
@@ -154,7 +154,7 @@ class About extends React.Component {
             <img
               
               src={image4}
-              width="300px"
+              
               height="auto"
               alt="portal logo"
               className=" img-fluid"
