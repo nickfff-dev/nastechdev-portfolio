@@ -276,3 +276,11 @@ h1{
 p{
   font-size: 0.8rem;
 }
+
+
+.photos .column a img{
+  width:15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}

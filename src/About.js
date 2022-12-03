@@ -1,6 +1,6 @@
 import React from "react";
 import image1 from "./portal-logo.gif";
-import image2 from "./images/Altcheck-logo.svg";
+import image2 from "./images/blah.png";
 import image3 from "./images/logo.svg";
 import image4 from "./logom.svg"
 import { Container,Col,Row } from "react-bootstrap";
@@ -20,9 +20,9 @@ class About extends React.Component {
                     SCRIPTING AND <br />
                     AUTOMATION
                   </h1>
-                  <p>Python for scripts and automation</p>
+                  <p>Python node for scripts and automation</p>
                 </div>
-                <a className="text-bold text-white" href="https://github.com/nickfff-dev/google-image-search-download"
+                <a className="text-bold text-white" href="https://github.com/nickfff-dev/download-tiktok-hashtag-video"
                   target="_blank" rel="noopener noreferrer">
                 
                   more
@@ -112,7 +112,7 @@ class About extends React.Component {
        </Container>
         <Container className="py-5 text-center">
           <h1 className="text-center mb-5">Our Clients</h1>
-          <div className="d-flex align-items-center justify-content-around">
+          <div className="photos d-flex align-items-center justify-content-around">
             <Col>
               <a href="https://portaldefi.com/"  className="" target="_blank" rel="noopener noreferrer">
             <img
@@ -125,7 +125,7 @@ class About extends React.Component {
              
               /></a></Col>
             <Col>
-              <a href="https://altcheck.io/"  className="" target="_blank" rel="noopener noreferrer">
+              <a href="https://btherapy.vercel.app/"  className="" target="_blank" rel="noopener noreferrer">
             <img
               
               src={image2}
