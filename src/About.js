@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "./portal-logo.gif";
 import image2 from "./images/blah.png";
 import image3 from "./images/logo.svg";
-import image4 from "./logom.svg"
+import image4 from "./images/easyb.PNG"
 import { Container,Col,Row } from "react-bootstrap";
 
 class About extends React.Component {
@@ -150,7 +150,7 @@ class About extends React.Component {
                 />
               </a></Col>
               <Col>
-              <a href="https://medicalcentric.net"  className="" target="_blank" rel="noopener noreferrer">
+              <a href="https://easybets.vercel.app/"  className="" target="_blank" rel="noopener noreferrer">
             <img
               
               src={image4}
