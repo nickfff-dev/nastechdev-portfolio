@@ -30,10 +30,8 @@ class App extends React.Component {
     return (
       <Container>
         <Header />
-        <Stack gap={5}>
-       <section id="home"> <Home /></section>
-        
-    
+        <section id="home"> <Home /></section>
+        <Stack gap={3}>
        <section id="about"> <About /></section>
         
           
